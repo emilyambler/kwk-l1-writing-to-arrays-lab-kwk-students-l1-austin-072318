@@ -56,6 +56,7 @@ In the file `editing_arrays.rb`, write a solution for the method
 "light_yellow". Use the index of these values to make changes.
 
 fav_movies.delete_at(0)
+fav_movies.delete_at(0)
 
 
 You should see the rainbow change to these colors when running tests.
