@@ -13,7 +13,10 @@ converted_rainbow.each { |c| 2.times { 45.times {print "\u2588".colorize(c)}; pu
 
 describe "change_rainbow_colors" do
   it "should change the array 'rainbow_colors' to equal ['red', 'light_red', 'light_yellow'] " do
-    puts ""
+    puts "my_variable"
+    my_variable = "hello"
+    puts my_variable
+    
     converted_rainbow.each { |c| 2.times { 45.times {print "\u2588".colorize(c)}; puts "" } }
     puts ""
     rainbow_colors = change_rainbow_colors
